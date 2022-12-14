@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../css/reservas.css" />
     <title>Reserva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
 
   <body id="fundo">
@@ -24,21 +27,29 @@
         </a>
       </nav>
     </header>
+<div id="conteudo"> 
     <div id="confirmar">
       <h1>Confirmar e pagar</h1>
     </div>
     
-    <div id="data">
+    <div id="data"> 
+     <h3> Sua viagem </h3>
+     <br>
         <div>
-          Data:<input type="date" /> até <input type="date" />
+         <h4>Datas</h4> 
+          <input type="date" /> <strong> até</strong> <input type="date" /> 
+          <br>
+          <br>
+          <Strong>Hóspedes</Strong> 
+          <br>
+           <input type="range" min="1" max="6" />
           <br />
-          Hospedes: <input type="range" min="1" max="6" />
-          <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;
           1&nbsp;|&nbsp;2&nbsp;|&nbsp;3&nbsp;| &nbsp;4 |&nbsp; 5 | 6
           <hr />
-          Total(BRL):______
-          <hr />
+          <br>
+          <strong>Total(BRL):</strong>
+          
         </div>
     </div>
     
@@ -62,6 +73,7 @@
     </div>
     <input type="button" value="Efetuar pagamento" />
     <hr />
+</div>  
     <footer id="hf">
       <ul>
         <li><a href="../../quemsomos.html">Quem somos</a></li>
