@@ -5,88 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/paises.css">
     <title>Países</title>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">
-            <img src="./img/logo/Logo.png" alt="Logomarca escrito Protur" width="250" height="50">
-        </a>
-        <div>
-            <a href="./login.html">
-                <h4>Área de Login</h4>
-            </a>
-        </div>
-    </nav>
-
     <header>
-        <h1>ProTur</h1>
+        <nav>
+            <a href="index.html">
+                <div>
+                    <img class="logo" src="./img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250"
+                        height="50">
+                </div>
+            </a>
+            <button class="btn">
+                <a href="./login.html">
+                    <h5 class="area-login">Área de Login</h5>
+                </a>
+            </button>
+        </nav>
     </header>
 
-    <main>
-        <div>
-            <br />
-            <h2>Argentina</h2>
-            <img src="./img/argentina/caminito-argentina.jpg" alt="Imagem Caminito Tango em Buenos Aires na Argentina"
-                width="150" height="100">
-            <br />
-            <button>Saiba mais</button>
-            <br />
+    <main class="main">
+        <div class="bg">
+            <img class="img-bg" src="./img/bg-paises.jpg" alt="" width="100%" height="620px">
+            <div class="txt-center">
+                <h1>Escolha o melhor lugar para passar suas férias!</h1>
+            </div>
+        </div>
+        <div class="galery">
+            <div class="img-topic">
+                <h2 class="subtitle">Argentina</h2>
+                <a href="./paises/argentina/argentina.html">
+                    <img src="./img/argentina/caminito-argentina.jpg"
+                        alt="Imagem Caminito Tango em Buenos Aires na Argentina" width="300" height="150">
+                </a>
+                <a href="./paises/argentina/argentina.html">
+                    <button class="btn-img">Saiba mais sobre a Argentina</button>
+                </a>
+            </div>
+
+            <div class="img-topic">
+                <h2 class="subtitle">Brasil</h2>
+                <a href="./paises/brasil/brasil.html">
+                    <img src="./img/brasil/alagoas-verao.jpg" alt="Foto da para de Alagoas - Maceió" width="300"
+                        height="150">
+                </a>
+                <a href="./paises/brasil/brasil.html">
+                    <button class="btn-img">Saiba mais sobre o Brasil</button>
+                </a>
+            </div>
+
+            <div class="img-topic">
+                <h2 class="subtitle">Canadá</h2>
+                <a href="./paises/canada/canada.html">
+                    <img src="./img/canada/cataratas-niagara.jpg" alt="Foto das Cataratas do Niágara no Canadá"
+                        width="300" height="150">
+                </a>
+                <a href="./paises/canada/canada.html">
+                    <button class="btn-img">Saiba mais sobre o Canadá</button>
+                </a>
+            </div>
         </div>
 
-        <div>
-            <br />
-            <h2>Brasil</h2>
-            <img src="./img/brasil/alagoas-verao.jpg" alt="Foto da para de Alagoas - Maceió" width="150" height="100">
-            <br />
-            <button>Saiba mais</button>
-            <br />
-        </div>
+        <div class="galery">
+            <div class="img-topic">
+                <h2 class="subtitle">Coréia do Sul</h2>
+                <a href="./paises/coreia-do-sul/coreia-do-sul.html">
+                    <img src="./img/coreia-do-sul/korean-folk-village-g799827a28_640.jpg"
+                        alt="Imagem da Aldeia do Povo na Coreia do Sul" width="300" height="150">
+                </a>
+                <a href="./paises/coreia-do-sul/coreia-do-sul.html">
+                    <button class="btn-img">Saiba mais sobre a Coréia do Sul</button>
+                </a>
+            </div>
 
-        <div>
-            <h2>Canadá</h2>
-            <img src="./img/canada/cataratas-niagara.jpg" alt="Foto das Cataratas do Niágara no Canadá" width="150"
-                height="100">
-            <br />
-            <button>Saiba mais</button>
-            <br />
-        </div>
+            <div class="img-topic">
+                <h2 class="subtitle">Japão</h2>
+                <a href="./paises/japao/japao.html">
+                    <img src="./img/japao/heritage-ga013254eb_640.jpg" alt="Imagem Castelo Himeji no Japão" width="300"
+                        height="150">
+                </a>
+                <a href="./paises/japao/japao.html">
+                    <button class="btn-img">Saiba mais o Japão</button>
+                </a>
+            </div>
 
-        <div>
-            <br />
-            <h2>Coréia do Sul</h2>
-            <img src="./img/coreia-do-sul/korean-folk-village-g799827a28_640.jpg"
-                alt="Imagem da Aldeia do Povo na Coreia do Sul" width="150" height="100">
-            <br />
-            <button>Saiba mais</button>
-            <br />
-        </div>
-
-        <div>
-            <br />
-            <h2>Japão</h2>
-            <img src="./img/japao/heritage-ga013254eb_640.jpg" alt="Imagem Castelo Himeji no Japão" width="150" height="100">
-            <br />
-            <button>Saiba mais</button>
-            <br />
-        </div>
-
-        <div>
-            <h2>Moçambique</h2>
-            <img src="./img/mocambique/mozambique-sunrise-g457b168cf_640.jpg" alt="Imagem do amanhecer em Moçambique na África" width="150" height="100">
-            <br />
-            <button>Saiba mais</button>
-            <br />
+            <div class="img-topic">
+                <h2 class="subtitle">Moçambique</h2>
+                <a href="./paises/mocambique/mocambique.html">
+                    <img src="./img/mocambique/mozambique-sunrise-g457b168cf_640.jpg"
+                        alt="Imagem do amanhecer em Moçambique na África" width="300" height="150">
+                </a>
+                <a href="./paises/mocambique/mocambique.html">
+                    <button class="btn-img">Saiba mais sobre Moçambique</button>
+                </a>
+            </div>
         </div>
     </main>
 
     <footer>
-        <ul>
-            <li><a href="./quemsomos.html">Quem somos</a></li>
-            <li><a href="./politica_privacidade.html">Política de Privacidade</a></li>
-            <li>Copyright</li>
+        <ul class="ul-footer">
+            <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
+            <li><a class="link-footer" href="./politica_privacidade.html">Política de Privacidade</a></li>
+            <li>&copy Copyright</li>
         </ul>
     </footer>
 </body>
