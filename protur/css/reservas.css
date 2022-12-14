@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#hf{
+    background-color: #1A3E85;
+}
+
+#fundo{
+    background-color: #EDEAEA;
+}
+
+#confirmar{
+    border:solid;
+    width: 270px;
+    padding: auto;
+    margin: 30px;
+    border-radius: 7px;
+}
+
+#data{
+    border:solid;
+    width: 300px;
+    height: 300px;
+    padding: auto;
+    margin-top: 25px; 
+    margin-left: 30px;
+    border-radius: 8px;
+}
