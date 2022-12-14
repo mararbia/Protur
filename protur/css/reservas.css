@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#conteudo{
+    margin-left: 60px;
+}
+
+
+#hf{
+    background-color: #1A3E85;
+}
+
+#fundo{
+    background-color: #EDEAEA;
+}
+
+#confirmar{
+    
+    width: 270px;
+    padding: auto;
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+#data{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height: 300px;
+    padding: auto;
+    margin-top: 25px; 
+    margin-left: 30px;
+    border-radius: 8px;
+}
