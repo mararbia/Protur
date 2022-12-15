@@ -7,6 +7,7 @@
 
 body, section{
     background-color: #EDEAEA;
+    color: #0d095c;
 }
 
 header{
@@ -36,10 +37,6 @@ nav{
     height: 100%;
     
 }
-
-/* .logo{
-    background-color: #1A3E85;
-} */
 
 .btn{
     padding: 15px;
@@ -78,7 +75,6 @@ a, a:active, a:visited{
     text-align: center;
     font-size: 1.25rem;
     font-weight: bolder;
-    color: #0d095c;
 }
 
 .txt-center h1{
