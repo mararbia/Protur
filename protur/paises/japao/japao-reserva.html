@@ -4,74 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/reservas.css">
-    <title>Reserva</title>
+    <link rel="stylesheet" href="../../css/reservas.css" />
+    <title>Confirmar e pagar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
-    <nav>
-      <a href="../../index.html">
-        <img
-          src="../../img/logo/Logo.png"
-          alt="Logomarca escrito Protur"
-          width="250"
-          height="50"
-        />
-      </a>
-      <a href="../../login.html">
-        <h4>Área de Login</h4>
-      </a>
-    </nav>
-
     <header>
-      <h1>Confirmar e pagar</h1>
+      <nav>
+          <a href="../../index.html">
+              <div>
+                  <img class="logo" src="../../img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250" height="50">
+              </div>
+          </a>
+          <button class="btn">
+              <a href="../../login.html">
+               <h5 class="area-login">Área de Login</h5>
+              </a>
+          </button>
+      </nav>
     </header>
-    <div>
-      <div>
-        Data:<input type="date" /> até <input type="date" />
-        <br />
-        Hospedes: <input type="range" min="1" max="6" />
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        1&nbsp;|&nbsp;2&nbsp;|&nbsp;3&nbsp;| &nbsp;4 |&nbsp; 5 | 6
-        <hr />
+  <div id="box">
+    <div  class="conteudo1">
+      <div id="confirmar">
+        <h1>Confirmar e pagar</h1>
       </div>
-
-      <div>
-        Total(BRL):______
-        <hr />
+      <div id="data">
+        <h3>Sua viagem</h3>
+        <br />
+        <div>
+          <h4>Datas</h4>
+          <input type="date" /> <strong> até</strong> <input type="date" />
+          <br />
+          <br />
+          <strong>Hóspedes</strong>
+          <br />
+          <input id="estilo" type="range" min="1" max="6" />
+          <br />
+          &nbsp; 1&nbsp;|&nbsp;2&nbsp;|&nbsp;3&nbsp;| &nbsp;4 |&nbsp; 5 | 6
+          <hr />
+          <br />
+          <strong>Total(BRL): &nbsp; R$2.742,07</strong>
+          <br>
+          <br>
+           <div id="button">
+             <input id="button2"  type="button" value="Continuar" />
+           </div>
+        </div>
       </div>
     </div>
+      <div class="conteudo2">
+        <img 
+          src="../../img/japao/osaka-japao-onde-fica.jpg"
+          height="150"
+          width="150"
+        />
+        
+        <em> &nbsp;&nbsp; Osaka - ilha Honshu</em>
+        <br>
+        <strong> &nbsp;&nbsp; Centro - apartamento </strong>
+        <hr />
+        <br><br<br><br><br><br><br>
+        &nbsp;&nbsp;&#11088; <strong>4,90</strong> (5 comentários)
+      
+        <div id="taxas">
+          <br>
+          <hr />
+          <h2> &nbsp; Informações de preço</h2>
+          <br>
+          &nbsp; &nbsp; R$399,00 x 6 noites &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        R$2.394,00
+                       <br>
+                       <br>
+          &nbsp; &nbsp; Taxa de serviço    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        R$348,07
+                      <br>
+                      <br>
+        </div> 
+      </div>
+  </div>  
 
-    <div>
-      <img
-        src="../../img/japao/osaka-japao-onde-fica.jpg"
-        height="300"
-        width="300"
-      />
-      <em>Osaka</em>|Feedback:&#11088;&#11088;&#11088;&#11088;&#11088;
+  
 
-      <hr />
-      <h2>Taxas</h2>
-      <ul>
-        <li>Taxa do hotel:___</li>
-        <li>Camareira:____</li>
-        <li>Café da manhã:___</li>
-        <li>Transporte:___</li>
+  <footer>
+      <ul class="ul-footer">
+          <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
+          <li><a class="link-footer" href="./politica_privacidade.html">Política de Privacidade</a></li>
+          <li>&copy Copyright</li>
       </ul>
-      <hr />
-    </div>
-    <input type="button" value="Efetuar pagamento" />
-    <hr />
+  </footer>
 
-    <footer>
-      <ul>
-        <li><a href="../../quemsomos.html">Quem somos</a></li>
-        <li>
-          <a href="../../politica_privacidade.html">Política de Privacidade</a>
-        </li>
-        <li>Copyright</li>
-      </ul>
-    </footer>
   </body>
 </html>
