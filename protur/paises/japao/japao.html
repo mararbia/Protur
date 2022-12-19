@@ -4,57 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/style.css">
-    <title>Japão</title>
+    <link rel="stylesheet" href="../../css/reserva2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title> Japão </title>
   </head>
 
   <body>
-    <nav>
-      <a href="../../index.html">
-        <img
-          src="../../img/logo/Logo.png"
-          alt="Logomarca escrito Protur"
-          width="250"
-          height="50"
-        />
-      </a>
-      <a href="../../login.html">
-        <h4>Área de Login</h4>
-      </a>
-    </nav>
-
     <header>
-      <h1><em>Osaka</em></h1>
+      <nav>
+        <a href="../../index.html">
+          <div>
+            <img
+              class="logo"
+              src="../../img/logo/Logo-bg-blue.png"
+              alt="Logomarca escrito Protur"
+              width="250"
+              height="50"
+            />
+          </div>
+        </a>
+        <button class="btn">
+          <a href="../../login.html">
+            <h5 class="area-login">Área de Login</h5>
+          </a>
+        </button>
+      </nav>
     </header>
-
-    <div>
-      <img
-        src="../../img/japao/osaka-japao-onde-fica.jpg"
+<div id="box">
+    <div class="borda">
+        <img id="img1"  src="../../img/japao/osaka-japao-onde-fica.jpg"
+        alt="Imagem de Osaka"
         width="300"
-        height="300"
-      />
-      <hr />
-
-      <p>
-        Osaka é uma grande cidade portuária e um centro comercial na ilha
-        japonesa de Honshu. Ela é conhecida pela arquitetura moderna, pela vida
-        noturna e pela comida de rua. O castelo Osaka do xogunato do século 16,
-        que passou por várias restaurações, é o ponto turístico histórico
-        principal. Ele está cercado por um fosso e um parque com ameixeiras,
-        pessegueiras e cerejeiras. Sumiyoshi-taisha está entre os santuários
-        Shinto mais antigos do Japão.
-      </p>
-
-      <a href="japao-reserva.html"><input type="button" value="Reservar" /></a>
+        height="350"/>
     </div>
+    <div class="borda">
+         <p>
+          Osaka é uma grande cidade portuária e um centro comercial na ilha japonesa de Honshu. Ela é conhecida pela arquitetura moderna, pela vida noturna e pela comida de rua. O castelo Osaka do xogunato do século 16, que passou por várias restaurações, é o ponto turístico histórico principal. Ele está cercado por um fosso e um parque com ameixeiras, pessegueiras e cerejeiras. Sumiyoshi-taisha está entre os santuários Shinto mais antigos do Japão.
+        </p>
+    </div>
+</div>
+
+<a href="../japao/japao-reserva.html">
+<input type="button" value="Reservar">
+</a>
+
+    
 
     <footer>
-      <ul>
-        <li><a href="../../quemsomos.html">Quem somos</a></li>
+      <ul class="ul-footer">
+        <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
         <li>
-          <a href="../../politica_privacidade.html">Política de Privacidade</a>
+          <a class="link-footer" href="./politica_privacidade.html"
+            >Política de Privacidade</a
+          >
         </li>
-        <li>Copyright</li>
+        <li>&copy Copyright</li>
       </ul>
     </footer>
   </body>

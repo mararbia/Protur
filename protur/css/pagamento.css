@@ -15,7 +15,7 @@ header{
     justify-content: center;
     width: 100%;
     height: 100%;
-    
+
 }
 
 nav{
@@ -28,10 +28,13 @@ nav{
     padding: 10px;
 }
 
+.link-logo-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 
-.area-login{
-    font-size: 18px;
-    color: #0d095c;
 }
 
 .btn{
@@ -40,30 +43,28 @@ nav{
     border: 1px solid #1A3E85;
 }
 
-.btn:hover{
-    background-color: #dae2f1;
-}
-
-#login{
-    padding: 10px;
-    border-radius: 15px;
-    border:  #1A3E85;
+.area-login{
     font-size: 18px;
-    color:  #1A3E85;
+    color: #0d095c;
 }
 
-a{
+a, a:active, a:visited{
     text-decoration: none;
 }
 
-#box{
-    display: flex;
-    align-items: center; 
- }
 
-.conteudo1{
-    width: 25%;
-    margin: 100px;
+
+#checkbox {
+    margin-left: 42%;
+    margin-top: 40px;
+    width: 150px;
+   
+}
+
+h2{ 
+    margin-left: 35%;
+    margin-top: 100px;
+    width: 380px;
 }
 
 
@@ -76,58 +77,17 @@ a{
     width: 200px;
     padding: 10px;
     transition: 0.5s;
+    margin-left:  40%;
 }
 
 #button2:hover {
     background-color: #667ca7;
 }
 
-.conteudo2{
-    width: 25%;
-    margin: 100px;
-    border: solid 1px;
-    border-radius: 10px;
-    margin-bottom: 150px;
-    padding: 10px;
-}
-
-#taxas{
-    clear: both;
-}
-
-img{
-    border-radius: 10px;
-    float: left;
-}
-
-#confirmar{
-    width: 270px;
-    padding: auto;
-    margin: 30px;
-    
-}
-
-#data{
-    
-    width: 300px;
-    height: 300px;
-    padding: auto;
-    margin-top: 25px; 
-    margin-left: 30px;
-    border-radius: 8px;
-}
-
-#pagamento{
-    border-radius: 10px;
-    margin-left: 60%;
-    
-    
-}
-
 footer{
     background-color: #1A3E85;
     display: flex;
-    margin-top: 50px;
+    margin-top: 240px;
     height: 50px;
 }
 
