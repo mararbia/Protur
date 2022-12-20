@@ -1,0 +1,171 @@
+/* Estilização Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, section{
+    background-color: #EDEAEA;
+    color: #0d095c;
+}
+
+header{
+    background-color: #1A3E85;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav{
+    background-color: #1A3E85;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link-logo-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1A3E85;
+}
+
+.area-login{
+    font-size: 18px;
+    color: #0d095c;
+}
+
+a, a:active, a:visited{
+    text-decoration: none;
+}
+
+/* Estilização da Página Home */
+
+.imagem-fundo{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.imagem-fundo img{
+    width: 100%;
+    opacity: 80%;
+}
+
+.txt-center{
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    width: 45%;
+    transition: translate(-50%, -50px);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.txt-center h1{
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.list h1{
+    align-self: center;
+    font-size: 2.0rem;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lista{
+    list-style: none;
+}
+
+.item-list{
+    margin: 20px;
+}
+
+.div-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.div-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.0rem;
+}
+
+.div-par{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-img{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.div-img button{
+    background-color: #1A3E85;
+    color: white;
+    font-weight: bolder;
+    border: #1A3E85;
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+/* Estilização Geral */
+
+footer{
+    background-color: #1A3E85;
+    display: flex;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.ul-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.link-footer{
+    color: white;
+}
