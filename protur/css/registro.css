@@ -1,0 +1,79 @@
+*{  border: solid 1px;
+    margin: 0;
+    padding: 0;
+}
+
+body, section{
+    background-color: #EDEAEA;
+    color: #0d095c;
+}
+
+header{
+    background-color: #1A3E85;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    background-color: #1A3E85;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link-logo-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1A3E85;
+}
+
+.area-login{
+    font-size: 18px;
+    color: #0d095c;
+}
+
+a, a:active, a:visited{
+    text-decoration: none;
+}
+footer{
+    background-color: #1A3E85;
+    display: flex;
+    margin-top: 335px;
+    height: 50px;
+}
+
+.ul-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.link-footer{
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}

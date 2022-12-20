@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/registro.css">
     <title>Cadastro</title>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">
-            <img src="./img/logo/Logo.png" alt="Logomarca escrito Protur" width="250" height="50">
-        </a>
-        <a href="./login.html">
-            <h4>Área de Login</h4>
-        </a>
-    </nav>
-
     <header>
-        <h1>ProTur</h1>
-    </header>   
+        <nav>
+            <a href="index.html">
+                <div>
+                    <img class="logo" src="../protur/img/logo/Logo.png" alt="Logomarca escrito Protur" width="250"
+                        height="50">
+                </div>
+            </a>
+            <button class="btn">
+                <a href="./login.html">
+                    <h5 class="area-login">Área de Login</h5>
+                </a>
+            </button>
+        </nav>
+    </header>
       <div class="form-box">
             <h2>Criar Conta</h2>
             <p>Já tem uma conta? <a href="./login.html">Login</a></p> 
@@ -35,7 +38,7 @@
                         <input type="email" id="email" placeholder="Digite seu e-mail" required>
     
                         <div class="input-group w50">
-                            <label for="enha">Senha</label>
+                            <label for="senha">Senha</label>
                             <input type="password" id="senha" placeholder="Digite sua senha" required>
                 </div>
 
@@ -51,10 +54,10 @@
             </form>
       </div>
       <footer>
-        <ul>
-            <li><a href="./quemsomos.html">Quem somos</a></li>
-            <li><a href="./politica_privacidade.html">Política de Privacidade</a></li>
-            <li>Copyright</li>
+        <ul class="ul-footer">
+            <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
+            <li><a class="link-footer" href="./politica_privacidade.html">Política de Privacidade</a></li>
+            <li>&copy Copyright</li>
         </ul>
     </footer>
 </body>
