@@ -4,9 +4,43 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body, section {
+body, section{
     background-color: #EDEAEA;
     color: #0d095c;
+}
+
+header{
+    background-color: #1A3E85;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav{
+    background-color: #1A3E85;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1A3E85;
+}
+
+.area-login{
+    font-size: 18px;
+    color: #0d095c;
+}
+
+a, a:active, a:visited{
+    text-decoration: none;
 }
 
 .container-login {
@@ -21,94 +55,12 @@ body, section {
     border-radius: 15px;
     box-sizing: border-box;
     transform: translateX(-50%);
-    margin-top: 45px;
-}
-
-.button-login {
-    width: 150px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.btn-center {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.input-box {
-    margin-top: 10px;
-
-}
-
-span {
-    margin-right: 10px;
-}
-
-input {
-    border-radius: 5px;
-}
-
-.login-body {
-    color: #0d095c;
-}
-
-.button-login:hover, a:hover {
-     background-color: #0d095c;   
-     color: #EDEAEA
-}
-
-.login {
-    font-size: 16px;
-}
-
-.input-box {
-    padding: 10px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-}
-
-.Lembrar {
-    margin: 20px 0 20px 0;
+    margin-top: 80px;
 }
 
 h2 {
     margin-left: 100px;
     margin-bottom: 10px;
-}
-
-header {
-    background-color: #1A3E85;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-
-}
-
-nav {
-    background-color: #1A3E85;
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    padding: 10px;
-}
-
-.link-logo-home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-
 }
 
 .btn {
@@ -122,17 +74,59 @@ nav {
     color: #0d095c;
 }
 
-a, a:active, a:visited{
-    text-decoration: none;
+span {
+    margin-right: 10px;
 }
-footer {
+
+input {
+    border-radius: 5px;
+}
+
+.input-box {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lembrar {
+    margin: 20px 0 20px 0;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-login {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-login:hover, a:hover {
+    background-color: #0d095c;   
+    color: #EDEAEA
+}
+
+.login {
+    font-size: 16px;
+}
+
+footer{
     background-color: #1A3E85;
     display: flex;
-    margin-top: 50px;
+    margin-top: 90px;
     height: 50px;
 }
 
-.ul-footer {
+.ul-footer{
     width: 100%;
     height: 100%;
     display: flex;
@@ -142,8 +136,6 @@ footer {
     color: white;
 }
 
-.link-footer {
+.link-footer{
     color: white;
 }
-
-

@@ -30,15 +30,6 @@ nav{
     padding: 10px;
 }
 
-.link-logo-home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    
-}
-
 .btn{
     padding: 15px;
     border-radius: 15px;
