@@ -54,6 +54,7 @@ a, a:active, a:visited{
 
 #img1{
     border-radius: 15px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.267);
 }
 
 #box{
