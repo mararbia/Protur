@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, section {
+    background-color: #EDEAEA;
+    color: #0d095c;
+}
+
+.container-login {
+    padding: 40px;
+    z-index: 60;
+    position: relative;
+    max-width: 350px;
+    height: 400px;
+    margin-left: 50%;
+    display: flex;
+    background-color: rgba(88, 144, 167, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    margin-top: 85px;
+    justify-content: center;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+input {
+    margin-left: 5px;
+    border-radius: 5px;
+    
+}
+
+.span {
+    font-size: 15px;
+}
+
+
+.login-body {
+        color: #0d095c;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-login {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-login:hover, a:hover {
+    background-color: #0d095c;   
+    color: #EDEAEA
+}
+
+.btn-three:hover {
+     background-color: #0d095c;   
+     
+}
+
+.login {
+    font-size: 13px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.input-box {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+header {
+    background-color: #1A3E85;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+nav {
+    background-color: #1A3E85;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link-logo-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1A3E85;
+}
+
+.area-login {
+    font-size: 18px;
+    color: #0d095c;
+}
+
+a, a:active, a:visited{
+    text-decoration: none;
+}
+footer {
+    background-color: #1A3E85;
+    display: flex;
+    margin-top: 85px;
+    height: 50px;
+}
+
+.ul-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.link-footer {
+    color: white;
+}
+
+
