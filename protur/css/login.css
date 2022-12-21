@@ -1,22 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body, section {
     background-color: #EDEAEA;
     color: #0d095c;
-}
-
-body::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .container-login {
@@ -34,62 +24,46 @@ body::after {
     margin-top: 45px;
 }
 
+.button-login {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .input-box {
-    margin-bottom: 0 0 10px;
+    margin-top: 10px;
 
 }
 
-    .login-body {
-        color: #0d095c;
+span {
+    margin-right: 10px;
 }
 
-    .btn-three{color: #FFF;
-        transition: all 0.5s;
-        position: relative;
-        text-align: center;
-        width: 130px;
-        height: 15px;
-        font-size: large;
-        margin-left: 60px;
+input {
+    border-radius: 5px;
 }
 
-    .btn-three::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-color: rgba(255,255,255,0.1);
-    transition: all 0.3s;
+.login-body {
+    color: #0d095c;
 }
 
-    .btn-three:hover::before {
-    opacity: 0 ;
-    transform: scale(0.5,0.5);
-}
-
-    .btn-three::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border: 1px solid rgba(255,255,255,0.5);
-    transform: scale(1.2,1.2);
-}
-
-    .btn-three:hover {
+.button-login:hover, a:hover {
      background-color: #0d095c;   
-     
+     color: #EDEAEA
 }
 
-
+.login {
+    font-size: 16px;
+}
 
 .input-box {
     padding: 10px;
@@ -98,6 +72,10 @@ body::after {
     font-size: 16px;
     display: flex;
     justify-content: center;
+}
+
+.Lembrar {
+    margin: 20px 0 20px 0;
 }
 
 h2 {
@@ -168,7 +146,4 @@ footer {
     color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-*{ 
-    font-family: 'Roboto', sans-serif;
-}
+
