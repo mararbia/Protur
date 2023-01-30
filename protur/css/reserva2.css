@@ -86,14 +86,14 @@ input:hover{
 }
 
 p{
-    width: 500px;
+    width: 400px;
     height: 200px;
 }
 
 footer{
     background-color: #1A3E85;
     display: flex;
-    margin-top: 200px;
+    margin-top: 299px;
     height: 50px;
 }
 

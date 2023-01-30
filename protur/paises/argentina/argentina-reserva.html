@@ -12,21 +12,22 @@
     
   </head>
   <body>
+
     <header>
       <nav>
           <a href="../../index.html">
-                    <div>
-                      <img class="logo" src="../../img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250" height="50">
-                    </div>
+            <div>
+              <img class="logo" src="../../img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250" height="50">
+            </div>
           </a>
-          
           <button class="btn">
-                   <a href="../../login.html">
-                      <h5 class="area-login">Área de Login</h5>
-                   </a>
+           <a href="../../login.html">
+            <h5 class="area-login">Área de Login</h5>
+           </a>
           </button>
       </nav>
     </header>
+
   <div id="box">
     <div  class="conteudo1">
       <div id="confirmar">
@@ -37,7 +38,10 @@
         <br />
         <div>
           <h4>Datas</h4>
-          <input type="date" /> <strong> até</strong> <input type="date" />
+          <input type="date" name="start" id="start" placeholder="Data inicial"/> <strong> até</strong> 
+          <input type="date" name="end" id="end" placeholder="Data final" />
+          <button id="button1">Calculo</button> <span id="teste1"></span>
+          
           <br />
           <br />
           <strong>Hóspedes</strong>
@@ -49,12 +53,9 @@
           <output>6</output>
         </div>
           <br />
-          
           <hr style="border: 1px solid;"/>
           <br />
-          
           <strong>Total(BRL): &nbsp; R$<span id="precoTotal"></span></strong>
-          
           <br>
           <br>
            <div id="button">
@@ -65,59 +66,43 @@
         </div>
       </div>
     </div>
+
       <div class="conteudo2">
-        <div class="card">
-        <img 
+        <img  class="card"
           src="../../img/argentina/buenos_aires.jpeg"
           height="150"
-          width="150"
-        />
-        </div>
-        
+          width="240"/>
         <em> &nbsp;&nbsp; Buenos Aires</em>
         <br>
         <strong> &nbsp;&nbsp; Centro - apartamento </strong>
         <hr style="border: 1px solid;" />
         <br><br<br><br><br><br><br>
         &nbsp;&nbsp;&#11088; <strong>4,90</strong> <a href="../../comentarios.html">(3 comentários)</a>
-        
-      
         <div id="taxas">
-
           <br>
           <hr style="border: 1px solid;"/>
-
-          
           <h2> &nbsp; Informações de preço</h2>
-          <div>
+          <div id="infoPreco">
           <br>
           &nbsp; &nbsp;<span > R$399,00 x <span id="diaria"></span> noites </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          <strong>R$</strong><span id="precoNoite"></span>
-                       <br>
-                       <br>
-          &nbsp; &nbsp; <span>Taxa de serviço  </span>  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <span id="rs"><strong>R$</strong></span> <span id="precoNoite"></span>
+          <br>
+          <br>
+          &nbsp; &nbsp; <span>Taxa de serviço  </span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           <span id="preçoServiço" >R$348,99</span>
           </div>
-                      
-                      
         </div> 
       </div>
   </div>  
 
-  
-
   <footer>
     <ul class="ul-footer">
       <li><a class="link-footer" href="../../quemsomos.html">Quem somos</a></li>
-      <li>
-        <a class="link-footer" href="../../politica_privacidade.html"
-          >Política de Privacidade</a
-        >
-      </li>
+         <li><a class="link-footer" href="../../politica_privacidade.html">Política de Privacidade</a></li>
       <li>&copy Copyright</li>
     </ul>
   </footer>
-  <script src="../../script/reserva.js" defer></script>
-  </body>
-  
+
+<script src="../../script/reserva.js" defer></script>
+</body>
 </html>
