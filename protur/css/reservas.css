@@ -111,6 +111,19 @@ a {
   margin-right: 10px;
 }
 
+#button1 {
+  color: white;
+  border-radius: 4px;
+  background-color: #1a3e85;
+  transition: 0.5s;
+}
+
+#button1:hover {
+  background-color: #667ca7;
+  font-weight: bold;
+  font-size: 100%;
+}
+
 #taxas {
   clear: both;
 }
