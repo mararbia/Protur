@@ -15,7 +15,6 @@ header{
     justify-content: center;
     width: 100%;
     height: 100%;
-
 }
 
 nav{
@@ -26,15 +25,6 @@ nav{
     justify-content: space-between;
     margin: 10px;
     padding: 10px;
-}
-
-.link-logo-home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-
 }
 
 .btn{
@@ -52,32 +42,88 @@ a, a:active, a:visited{
     text-decoration: none;
 }
 
-#checkbox {
-    margin-left: 42%;
-    margin-top: 40px;
+
+/* -------------------------------- */
+
+.container {
+    margin: 9% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(88, 144, 167, 0.5);
+    width: 20%;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.content > h2, p {
+    text-align: center;
+    margin-top: 20px;
+    color: #0d095c;
+}
+
+.form-login {
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+}
+
+.box-container {
+    margin-bottom: 20px;
+}
+
+.box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.box-content > p {
+    background-color: aqua;
+}
+
+.box-content > input {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button-login{
+    margin: 10px 0;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #1A3E85;
     width: 150px;
+    height: 50px;
 }
 
-#button2{
-    background-color: #1A3E85;
-    border-radius: 10px;
-    font-size: larger;
-    color: rgb(255, 255, 255);
-    border: none;
-    width: 200px;
-    padding: 10px;
-    transition: 0.5s;
-    margin-left:  40%;
+.button-login > a:visited {
+    color: #0d095c;
 }
 
-#button2:hover {
-    background-color: #667ca7;
-}
+
+/* -------------------------------- */
 
 footer{
     background-color: #1A3E85;
     display: flex;
-    margin-top: 240px;
+    margin-top: 50px;
     height: 50px;
 }
 
@@ -93,4 +139,41 @@ footer{
 
 .link-footer{
     color: white;
+    width: 100%;
 }
+
+.helper-text {
+  display: none;
+  font-size: .8rem;
+  color: darkred; 
+}
+
+.required-popup::after {
+    position: absolute;
+    top: 50;
+    right: 50;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #090a09;
+    color: #206620;
+  }
+  
+  .visible {
+    display: block;
+    margin-top: -35px;
+    margin-left: -185px;
+  }

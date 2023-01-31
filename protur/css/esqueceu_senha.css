@@ -4,109 +4,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body, section {
+body, section{
     background-color: #EDEAEA;
     color: #0d095c;
 }
 
-.container-login {
-    padding: 40px;
-    z-index: 60;
-    position: relative;
-    max-width: 350px;
-    height: 400px;
-    margin-left: 50%;
-    display: flex;
-    background-color: rgba(88, 144, 167, 0.5);
-    border-radius: 15px;
-    box-sizing: border-box;
-    transform: translateX(-50%);
-    margin-top: 100px;
-    justify-content: center;
-}
-
-.input-box {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-input {
-    margin-left: 5px;
-    border-radius: 5px;
-    
-}
-
-.span {
-    font-size: 15px;
-}
-
-
-.login-body {
-        color: #0d095c;
-}
-
-.btn-center {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.button-login {
-    width: 150px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.button-login:hover, a:hover {
-    background-color: #0d095c;   
-    color: #EDEAEA
-}
-
-.btn-three:hover {
-     background-color: #0d095c;   
-     
-}
-
-.login {
-    font-size: 13px;
-}
-
-.content-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.subtitulo {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.text {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.input-box {
-    padding: 10px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-}
-
-header {
+header{
     background-color: #1A3E85;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
-
 }
 
-nav {
+nav{
     background-color: #1A3E85;
     width: 90%;
     height: 100%;
@@ -116,22 +27,13 @@ nav {
     padding: 10px;
 }
 
-.link-logo-home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-
-}
-
-.btn {
+.btn{
     padding: 15px;
     border-radius: 15px;
     border: 1px solid #1A3E85;
 }
 
-.area-login {
+.area-login{
     font-size: 18px;
     color: #0d095c;
 }
@@ -139,14 +41,93 @@ nav {
 a, a:active, a:visited{
     text-decoration: none;
 }
-footer {
-    background-color: #1A3E85;
+
+
+/* -------------------------------- */
+
+.container {
+    margin: 9% 0;
+    width: 100%;
     display: flex;
-    margin-top: 130px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(88, 144, 167, 0.5);
+    width: 20%;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.content > h2, p {
+    text-align: center;
+    margin-top: 20px;
+    color: #0d095c;
+}
+
+.form-login {
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    margin: 20px;
+    padding: 5px;
+}
+
+.box-container {
+    margin-bottom: 20px;
+}
+
+.box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.box-content > p {
+    background-color: aqua;
+}
+
+.box-content > input {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button-login{
+    margin: 10px 0;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #1A3E85;
+    width: 150px;
     height: 50px;
 }
 
-.ul-footer {
+.button-login > a:visited {
+    color: #0d095c;
+}
+
+
+/* -------------------------------- */
+
+footer{
+    background-color: #1A3E85;
+    display: flex;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.ul-footer{
     width: 100%;
     height: 100%;
     display: flex;
@@ -156,8 +137,43 @@ footer {
     color: white;
 }
 
-.link-footer {
+.link-footer{
     color: white;
+    width: 100%;
 }
 
+.helper-text {
+  display: none;
+  font-size: .8rem;
+  color: darkred; 
+}
 
+.required-popup::after {
+    position: absolute;
+    top: 50;
+    right: 50;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #090a09;
+    color: #206620;
+  }
+  
+  .visible {
+    display: block;
+    margin-top: -35px;
+    margin-left: -185px;
+  }

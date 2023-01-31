@@ -1,91 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="./css/registro.css" />
-    <title>registro</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">
-          <div>
-            <img
-              class="logo"
-              src="./img/logo/Logo-bg-blue.png"
-              alt="Logomarca escrito Protur"
-              width="250"
-              height="50"
-            />
-          </div>
-        </a>
-        <button class="btn">
-          <a href="login.html">
-            <h5 class="area-login">Área de Login</h5>
-          </a>
-        </button>
-      </nav>
-    </header>
-    <div class="container-login">
-      <div class="content-box">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/registro.css" />
+  <script src="./script/registro.js" defer></script>
+  <title>Cadastre-se</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">
         <div>
-          <h2 class="subtitulo">Cadastre-se</h2>
-          <form>
-            <div class="input-box">
-              <span>E-mail:</span>
-              <input type="e-mail" placeholder="Digite seu e-mail" />
-            </div>
-
-            <!-- <div class="input-box">
-                <span>Confirme:</span>
-                <input type="e-mail" placeholder="Confirme seu e-mail" />
-              </div> -->
-
-              <div class="input-box">
-                <span>Senha:</span>
-                <input type="password" placeholder="Digite uma senha" />
-              </div>
-
-            <!-- <div class="input-box">
-              <span>Confirme:</span>
-              <input type="password" placeholder="Confirme sua senha" />
-            </div> -->
-
-            <div class="Lembrar">
-              <a href="index.html">
-                <a href="index.html">
-                  <div class="btn-center">
-                    <button type="button" class="btn button-login">
-                      <a href="./confirmacao_registro.html">   
-                        <h5 class="login">Registre-se</h5>
-                      </a>
-                  </button>
-                  </div>   
-            </a>
-            </a>
-              </div>
-            </div>
-          </form>
+          <img src="./img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250" height="50">
         </div>
-      </div>
+      </a>
+      <button class="btn">
+        <a href="./login.html">
+          <h5 class="area-login">Área de Login</h5>
+        </a>
+      </button>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="content">
+      <h2>Cadastre-se</h2>
+
+      <form>
+        <div class="form-login">
+
+          <div class="box">
+
+            <div class="box-container">
+              <div class="box-content">
+                <label for="email">*E-mail:</label>
+                <input type="email" id="email" name="email">
+              </div>
+
+              <p id="email-helper" class="helper-text">Mensagem de Ajuda</p>
+
+              <div class="box-content">
+                <label for="password">*Senha:</label>
+                <input type="password" id="psw">
+              </div>
+
+              <p id="psw-helper" class="helper-text">Mensagem de Ajuda</p>
+
+              <div class="box-content">
+                <label for="password-repeat">*Repetir Senha:</label>
+                <input type="password" id="pswR">
+              </div>
+
+              <p id="pswR-helper" class="helper-text">Mensagem de Ajuda</p>
+            </div>
+            <div class="btn-center">
+              <button id="btn-login" type="button" class="button-login">
+                <h3>Cadastrar</h3>
+              </button>
+            </div>
+          </div>
+
+
+        </div>
+      </form>
     </div>
-    <footer>
-      <ul class="ul-footer">
-        <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
-        <li>
-          <a class="link-footer" href="./politica_privacidade.html"
-            >Política de Privacidade</a
-          >
-        </li>
-        <li>&copy Copyright</li>
-      </ul>
-    </footer>
-  </body>
+  </div>
+
+
+  <footer>
+    <ul class="ul-footer">
+      <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
+      <li><a class="link-footer" href="./politica_privacidade.html">Política de Privacidade</a></li>
+      <li>&copy Copyright</li>
+    </ul>
+  </footer>
+</body>
+
 </html>
