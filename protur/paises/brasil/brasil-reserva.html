@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../css/reservas.css" />
     <title>Confirmar e pagar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link  href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+    
   </head>
   <body>
+
     <header>
       <nav>
           <a href="../../index.html">
-              <div>
-                  <img class="logo" src="../../img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250" height="50">
-              </div>
+            <div>
+              <img class="logo" src="../../img/logo/Logo-bg-blue.png" alt="Logomarca escrito Protur" width="250" height="50">
+            </div>
           </a>
           <button class="btn">
-              <a href="../../login.html">
-               <h5 class="area-login">Área de Login</h5>
-              </a>
+           <a href="../../login.html">
+            <h5 class="area-login">Área de Login</h5>
+           </a>
           </button>
       </nav>
     </header>
+
   <div id="box">
     <div  class="conteudo1">
       <div id="confirmar">
@@ -38,20 +38,27 @@
         <br />
         <div>
           <h4>Datas</h4>
-          <input type="date" /> <strong> até</strong> <input type="date" />
+          <input type="date" name="start" id="start" placeholder="Data inicial"/> <strong> até</strong> 
+          <input type="date" name="end" id="end" placeholder="Data final" />
+          <button id="button1">Calcular</button> <span id="teste1"></span>
+          
           <br />
           <br />
           <strong>Hóspedes</strong>
           <br />
-          <input id="estilo" type="range" min="1" max="6" />
+          <div class = "slider-container">
+            <span class="bar"><span class="fill"></span></span>
+          <input id="slider" class="slider" type="range" min="1" max="6" onchange="total()" 
+          oninput="this.nextElementSibling.value= this.value" />
+          <output>6</output>
+        </div>
           <br />
-          &nbsp; 1&nbsp;|&nbsp;2&nbsp;|&nbsp;3&nbsp;| &nbsp;4 |&nbsp; 5 | 6
-          <hr />
+          <hr style="border: 1px solid;"/>
           <br />
-          <strong>Total(BRL): &nbsp; R$2.742,07</strong>
+          <strong>Total(BRL): &nbsp; R$<span id="precoTotal"></span></strong>
           <br>
           <br>
-          <div id="button">
+           <div id="button">
             <a href="../../Pagamento.html">
              <input id="button2"  type="button" value="Continuar" />
             </a>
@@ -59,50 +66,43 @@
         </div>
       </div>
     </div>
+
       <div class="conteudo2">
-        <img 
-          src="../../img/brasil/alagoas-verao.jpg"
+        <img  class="card"
+          src="../../img/brasil/rio.jpeg"
           height="150"
-          width="150"
-        />
-        
-        <em> &nbsp;&nbsp; Rio de janeiro - verão</em>
+          width="240"/>
+        <em> &nbsp;&nbsp; Rio de janeiro</em>
         <br>
         <strong> &nbsp;&nbsp; Centro - apartamento </strong>
-        <hr />
+        <hr style="border: 1px solid;" />
         <br><br<br><br><br><br><br>
         &nbsp;&nbsp;&#11088; <strong>4,90</strong> <a href="../../comentarios.html">(3 comentários)</a>
-      
         <div id="taxas">
           <br>
-          <hr />
+          <hr style="border: 1px solid;"/>
           <h2> &nbsp; Informações de preço</h2>
+          <div id="infoPreco">
           <br>
-          &nbsp; &nbsp; R$399,00 x 6 noites &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        R$2.394,00
-                       <br>
-                       <br>
-          &nbsp; &nbsp; Taxa de serviço    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        R$348,07
-                      <br>
-                      <br>
+          &nbsp; &nbsp;<span > R$399,00 x <span id="diaria"></span> noites </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <span id="rs"><strong>R$</strong></span> <span id="precoNoite"></span>
+          <br>
+          <br>
+          &nbsp; &nbsp; <span>Taxa de serviço  </span>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <span id="preçoServiço" >R$348,99</span>
+          </div>
         </div> 
       </div>
   </div>  
 
-  
-
   <footer>
     <ul class="ul-footer">
       <li><a class="link-footer" href="../../quemsomos.html">Quem somos</a></li>
-      <li>
-        <a class="link-footer" href="../../politica_privacidade.html"
-          >Política de Privacidade</a
-        >
-      </li>
+         <li><a class="link-footer" href="../../politica_privacidade.html">Política de Privacidade</a></li>
       <li>&copy Copyright</li>
     </ul>
   </footer>
 
-  </body>
+<script src="../../script/reserva.js" defer></script>
+</body>
 </html>
