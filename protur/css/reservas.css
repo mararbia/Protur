@@ -58,7 +58,7 @@ a {
 #box {
   display: flex;
   align-items: center;
-  background-image: url(../../protur/img/empty-sea-and-beach-background.jpg);
+  background-image: url(../img/empty-sea-and-beach-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
