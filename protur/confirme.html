@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/logo/icon_logo.png" />
+    <link rel="stylesheet" href="./css/confirme.css" />
+    <script src="./script/script.js" defer></script>
+    <title>Pagamento</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <div>
+            <img
+              class="logo"
+              src="./img/logo/Logo-bg-blue.png"
+              alt="Logomarca escrito Protur"
+              width="250"
+              height="50"
+            />
+          </div>
+        </a>
+        <button class="btn">
+          <a href="./login.html">
+            <h5 class="area-login">Área de Login</h5>
+          </a>
+        </button>
+      </nav>
+    </header>
+
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">ENDEREÇO DE COBRANÇA</h3>
+
+            <div class="inputBox">
+              <span>Nome Completo:</span>
+              <input type="text" placeholder="Ex: John Souza Viera" />
+            </div>
+            <div class="inputBox">
+              <span>email :</span>
+              <input type="email" placeholder="exemplo@exemplo.com" />
+            </div>
+            <div class="inputBox">
+              <span>endereço :</span>
+              <input type="text" placeholder="bairro - rua - nº" />
+            </div>
+            <div class="inputBox">
+              <span>cidade :</span>
+              <input type="text" placeholder="Ex: Salvador" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>estado :</span>
+                <input type="text" placeholder="Ex: SP" />
+              </div>
+              <div class="inputBox">
+                <span>CEP :</span>
+                <input type="text" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">pagamento</h3>
+
+            <div class="inputBox">
+              <span>Cartões aceitos :</span>
+              <img src="./img/card_img.png" alt="" />
+            </div>
+            <div class="inputBox">
+              <span>nome no cartão :</span>
+              <input type="text" placeholder="Ex: John S. Viera" />
+            </div>
+            <div class="inputBox">
+              <span>número do cartão :</span>
+              <input type="number" placeholder="1111-2222-3333-4444" />
+            </div>
+            <div class="inputBox">
+              <span>mês de expiração :</span>
+              <input type="text" placeholder="Ex: janeiro" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>Ano de expiração :</span>
+                <input type="number" placeholder="2022" />
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="./Pagamento.html">
+          <button type="button" value="registre" class="submit-btn">
+            Confirmar pagamento
+          </button>
+        </a>
+      </form>
+    </div>
+
+    <footer>
+      <ul class="ul-footer">
+        <li><a class="link-footer" href="./quemsomos.html">Quem somos</a></li>
+        <li>
+          <a class="link-footer" href="./politica_privacidade.html"
+            >Política de Privacidade</a
+          >
+        </li>
+        <li>&copy Copyright</li>
+      </ul>
+    </footer>
+  </body>
+</html>
