@@ -67,7 +67,7 @@
               </div>
               <div class="inputBox">
                 <span>CEP :</span>
-                <input type="text" placeholder="123 456" />
+                <input type="text" placeholder="123 456" class="cep" />
               </div>
             </div>
           </div>
@@ -85,21 +85,25 @@
             </div>
             <div class="inputBox">
               <span>número do cartão :</span>
-              <input type="number" placeholder="1111-2222-3333-4444" />
+              <input
+                type="number"
+                placeholder="1111-2222-3333-4444"
+                id="card"
+              />
             </div>
             <div class="inputBox">
               <span>mês de expiração :</span>
-              <input type="text" placeholder="Ex: janeiro" />
+              <input type="text" placeholder="Ex: 08" class="date" />
             </div>
 
             <div class="flex">
               <div class="inputBox">
                 <span>Ano de expiração :</span>
-                <input type="number" placeholder="2022" />
+                <input type="number" placeholder="2022" class="ano" />
               </div>
               <div class="inputBox">
                 <span>CVV :</span>
-                <input type="text" placeholder="1234" />
+                <input type="text" placeholder="123" class="cvv" />
               </div>
             </div>
           </div>
@@ -123,5 +127,8 @@
         <li>&copy Copyright</li>
       </ul>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="./script/main.js"></script>
   </body>
 </html>
