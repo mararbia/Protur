@@ -5,3 +5,5 @@ let text_content = "Você já pensou em viajar com sua família, amigos ou fazer
 
 title.innerHTML = text_title;
 text_p.innerHTML = text_content;
+
+
